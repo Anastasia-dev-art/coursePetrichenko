@@ -1,4 +1,4 @@
-
+ 
 
 let numberOfFilm = +prompt ( "Сколько фильмов вы уже посмотрели?", " ")
 
@@ -18,6 +18,6 @@ let c = prompt("Один из последних фильмов, который 
 let d = prompt('Оценка фильму', " ")
 
 personalMovieDB.movies[a] = b;
-personalMovieDB.movies.c = d
+personalMovieDB.movies[c]= d
 
 console.log(personalMovieDB);
